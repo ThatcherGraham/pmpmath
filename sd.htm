@@ -1,0 +1,184 @@
+<!DOCTYPE html> 
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PMP | MATH</title>
+<link rel="shortcut icon" href="/favicon.ico">
+ 
+<link rel="stylesheet" type="text/css" href="home.css" />
+ 
+ </head>
+ 
+ <div id="masthead">
+ <ul id="nav2">
+            <li><a href="http://www.pmpmath.com/faq.htm">FAQ</a></li>
+            <li><a href="http://www.pmpmath.com/index.htm">Home</a></li>
+            <li><a href="http://thatchergraham.com/"target="_blank">Contact</a></li>
+			
+</ul>
+		
+            </div>
+ 
+ 
+ <div id="wrapper">
+ <div id="header">
+        	<h1><font color="#800000">PMP</font> | MATH</h1>
+            <h2>A set of mathmatical proofs for common PMP formulas</h2>
+			         </div>  
+
+<div id=center>		
+ 
+ <div id=menu>
+ 
+    <?php include('menu.htm')?>
+	
+  </div>
+	<div id=content>	
+<h3>Standard Deviation</h3>	
+<p>
+Standard deviation is not a simple concept. 
+But it's very important so don't give up. 
+The formula used in the PMBOK for standard deviation is simple. 
+It's just(P-O)/6. That is the pessimistic activity estimate minus the optimistic activity estimate divided by six.
+The problem is that this in no way shape or form produces a measure of standard deviation.
+So if this isn't really standard deviation, what is it? 
+<p>
+The dictionary definition of standard deviation is something like 
+"<i>a quantity calculated to indicate the extent of deviation from the mean or expected value for a group as a whole."</i>
+Expected value in this case refers to atypical distributions; 
+those are distributions other than a bellcurve ex. a chi squared distribution. 
+Sometimes it's more succinctly rendered as "<i>the mean of the mean.</i>" It is the average of the squared differences from the mean. 
+<p>
+<center>
+<img src="http://farm9.staticflickr.com/8111/8460864239_3a327caa90_o_d.png" alt="Bell Curve">
+</center>
+The first problem is that this formula doesnt use the mean or an expected value as a variable at all. 
+If you calculate the deviation from the mean you need to use the mean. If you have two values that's easy to determine. 
+That's the sum of the two figures, divided by two. That does not ocurre in this formula. 
+<p>
+Because our distribution has only 2 points it exhibits neither the qualities of a Gaussian curve, Beta distribution, Chi squared distribution,  Poisson distribution, the Bernoulli distribution, the binomial distribution, the geometric distribution, or any other common functions.
+It's jsut a line so there is no curve of any kind. Using this formula we have only two values: optimistic and pessimistic. 
+This part of the formula is similar to one used in investing. It's called HML: high minus low. 
+Since these are your high and low figures from a distribution the difference between them is called an interval. 
+By some definitions it's also the range. Dividing that by six just produces a figure for 16.6% of the interval. 
+<p>
+So what does this figure actually represent?
+In the example below I describe a linear increase in variance between the optimistic and pessimistic figures in a set of 10 examples. 
+This illustrates the relationship between the PM formula SD, and the optimistic and pessimistic variables.
+<p>
+<b>Example A:</b>
+If O=1000 hours, P=1000 hours. <br>
+SD=(1000 - 1000 = 0) ÷ 6 or 0<br>
+Calculated SD = 0, Population<br>
+Standard Deviation = 0<br>
+<p>
+<b>Example B:</b>
+If O=900 hours, P=1100 hours. <br>
+SD=(1100 - 900 = 200) ÷ 6 or 33<br>
+Calculated SD = 141.42136<br>
+Population Standard Deviation = 100<br>
+<p>
+<b>Example C:</b>
+If O=800 hours, P=1200 hours. <br>
+SD=(1200 - 800 = 400) ÷ 6 or 66.67 <br>
+Calculated SD = 282.84271<br>
+Population Standard Deviation = 200<br>
+<p>
+<b>Example D:</b>
+If O=700 hours, P=1300 hours. <br>
+SD=(1300 - 700 = 600) ÷ 6 or 100<br>
+Calculated SD = 424.26407<br>
+Population Standard Deviation = 300<br>
+<p>
+<b>Example E:</b>
+If O=600 hours, P=1400 hours. <br>
+SD=(1400 - 600 = 800) ÷ 6 or 133.33 <br>
+Calculated SD = 565.68542<br>
+Population Standard Deviation = 400<br>
+<p>
+<b>Example F:</b>
+If O=500 hours, P=1500 hours. <br>
+SD=(1500 - 500 = 1000) ÷ 6 or 166.67<br>
+Calculated SD = 707.10678<br>
+Population Standard Deviation = 500<br>
+<p>
+<b>Example G:</b>
+If O=400 hours, P=1600 hours. <br>
+SD=(1600 - 400 = 1200) ÷ 6 or 200  <br>
+Calculated SD = 848.52814<br>
+Population Standard Deviation = 600<br>
+<p>
+<b>Example H:</b>
+If O=300 hours, P=1700 hours. <br>
+SD=(1700 - 300 = 1400) ÷ 6 or 233.33 <br>
+Calculated SD = 989.94949<br>
+Population Standard Deviation = 700<br>
+<p>
+<b>Example I:</b>
+If O=200 hours, P=1800 hours. <br>
+SD=(1800 - 200 = 1600) ÷ 6 or 266.67<br>
+Calculated SD = 1131.37085<br>
+Population Standard Deviation = 800<br>
+<p>
+<b>Example J:</b>
+If O=100 hours, P=1900 hours. <br>
+SD=(1900 - 100 = 1800) ÷ 6 or 300<br>
+Calculated SD = 1272.79221<br>
+Population Standard Deviation = 900<br>
+<p>
+<b>Example K:</b>
+If O=0.0 hours, P=2000 hours. <br>
+SD=(2000 - 0 = 2000) ÷ 6 or 333<br>
+Calculated SD = 1414.21356<br>
+Population Standard Deviation = 1000<br>
+<p>
+I've graphed the relationships below.
+<center>
+<img src="http://farm9.staticflickr.com/8227/8456266211_c3569c9e0f_o_d.jpg" alt="sd_chart" width="541" height="310">
+</center>
+You can see that SD trends away from the pessemistic estimate the greater the difference between the optimistic and pessemistic estimates. 
+If I rerun those numbers based on a calculated standard deviation with population standard deviation you get a very different (and more cluttered) data set. 
+<p>
+<center>
+<img src="http://farm9.staticflickr.com/8513/8474334303_bb9281a240_o_d.jpg" alt="mega_sd_chart" width="520" height="310">
+</center>
+<p>
+I have left the mean in this data set deliberately. I did that to indicate that the range was changing but the mean and sum were not.
+Because those figures are constant you might expect either the calculated SD or the PM SD figures to produce a line parallel to the mean.
+They don't. Standard deviation isn't a constant.
+It measures variance from the mean so a high standard deviation indicates only that the data points are spread out over a wide range of values.
+<p>
+<h3>DEDUCTIONS:</h3>
+<p>
+The reason that the PM SD figure trends up is that it's a fixed percentage of the range. 
+So as the range widens any fixed percentage of that number will also increase.
+Correspondingly PM SD and the traditional SD both trend toward the pessimistic estimate. 
+This means that with wider ranges both of these will exhibit bias toward pessimistic estimates. 
+<p>
+The population SD trend line remains paralel to the pessimistic estimate curve. 
+This is an unexpected proportionality 
+
+<p>
+This trend is a constant irrespective of which figure or figures are adjusted, it merely is tacking to the lower estimates. 
+The cause of this behavior isn't complicated. It's because the sum is divided by six. 
+If we had divided by two it would have exhibited a linear relationship ploting a course parallel to the optimistic estimate.
+<p>
+<h3>CONCLUSION:</h3>
+This is an industry standard and while arbitrary it is not egregious, it merely favors the optimistic estimate.It's result set should not be considered sarosanct. 
+The short comings of this formula are correct by anothe rmethod in the PMBOK, progressive elaboration. 
+Over the course of a project estimates will become increasingly accurate with the inclusion of real-world data. 
+The SD formula produces an integer for the Range of activity duration calculation and little more.
+
+    </div>
+	
+	
+ </div>
+</div>
+
+ 
+
+ 
+ </html>
+ 
+ 
