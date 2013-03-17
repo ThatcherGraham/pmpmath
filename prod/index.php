@@ -8,6 +8,11 @@
   
  <link rel="stylesheet" type="text/css" href="home.css" />
  
+ <script>
+ <!--[if lte IE 6]><script src="js/ie6/warning.js"></script><script>window.onload=function(){e("js/ie6/")}</script><![endif]-->
+ </script>
+ 
+ 
  </head>
  
  <div id="masthead">
@@ -46,7 +51,7 @@
 <h3>Caveat</h3>
 
 While I am a certified PMP, I can only state my professional opinion. This website is in no other way affiliated with PMI. 
-My caveat is simiar to the one issued in Chapter 1 of the PMBOK.  
+My caveat is similar to the one issued in Chapter 1 of the PMBOK.  
 It is a "body of knowledge," a functional reference that is neither complete nor all-inclusive. 
 PMI advocates a number methodologies that originate in a variety of vocational areas. 
 So while these techniques may seem disparate, they are considered part of the collective whole.

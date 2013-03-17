@@ -43,7 +43,7 @@ It's logical and can be used in essentially every formal and informal project, l
 When you are mid-project there are two units by which you can measure your progress: time and money. 
 Cost variance measures progress in dollars. It's that simple. It is the value of the work that has been accomplished thus far in a project. 
 the formula is CV = EV - AC. EV is earned value and AC is actual cost. 
-These two variables dont' have formulas. Actual cost is the sum of all direct project charges to date. It is the money you have already spent. 
+These two variables don't have formulas. Actual cost is the sum of all direct project charges to date. It is the money you have already spent. 
 <p>
 Earned value is slightly less intuitive. EV is the estimated value of the completed work. 
 That's a bit dicey though. On many projects the product or service is useless and unsaleable in an incomplete form. 

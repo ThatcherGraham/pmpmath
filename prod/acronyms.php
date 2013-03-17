@@ -38,8 +38,8 @@
 <h3>Acronyms</h3>	
 <p>
 I actually made a seperate set of flash cards just to help me memorize all the acronyms.
-It helped. I reccomend you do it too. I do nto include aronyms for all the contract types here. 
-This list includes just what's pertinent for that formulas or is otherwise referred to on this website.. 
+It helped. I reccomend you do it too. I do not include acronyms for all the contract types here. 
+This list includes just what's pertinent for PM formulas or is otherwise referred to on this website.. 
 <p>
 AC - Actual Cost, (aka ACWP) <br>
 ACWP - Actual Cost of Work Performed, (aka AC)<br>
